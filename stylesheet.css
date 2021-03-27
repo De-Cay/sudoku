@@ -1,0 +1,35 @@
+header{
+  display: flex;
+  justify-content: center;
+}
+main{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.row{
+  min-width: 300px;
+  min-height: 50px;
+  display: flex;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+.cell{
+  width: 50px;
+  border-right: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  text-align: center;
+  width: 40px;
+  outline: none;
+  border-style: none;
+  height: 20px;
+  font-size: 14px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
